@@ -1,0 +1,210 @@
+repo_name: Jeff-Bouchard/skycoin-modal
+report_id: 876a14b8734ace946e53b22da575ebb2
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-04T14:46:19+00:00'
+requested_by: 0pcom
+provider: github
+branch: master
+detected_tools_count: 15
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skycoin-modal
+  detection_source: Repo Metadata
+- name: Golang
+  description: An open source programming language that makes it easy to build simple,
+    reliable, and efficient software
+  website_url: http://golang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skycoin-modal
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skycoin-modal
+  detection_source: Repo Metadata
+- name: Testify
+  description: A toolkit with common assertions and mocks that plays nicely with the
+    standard library
+  website_url: https://github.com/stretchr/testify
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Go Testing
+  image_url: https://img.stackshare.io/service/8695/stretchr.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skycoin-modal/blob/master/vendor/github.com/sirupsen/logrus/go.mod
+  detection_source: vendor/github.com/sirupsen/logrus/go.mod
+  last_updated_by: Moses Narrow
+  last_updated_on: 2021-04-15 19:01:42.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skycoin-modal/blob/master/vendor/github.com/palantir/stacktrace/.travis.yml
+  detection_source: vendor/github.com/palantir/stacktrace/.travis.yml
+  last_updated_by: Moses Narrow
+  last_updated_on: 2021-04-15 19:01:42.000000000 Z
+- name: amber
+  description: Amber is an elegant templating engine for Go Programming Language
+  package_url: https://pkg.go.dev/github.com/eknkc/amber
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skycoin-modal/blob/master/go.sum
+  detection_source: vendor/github.com/unrolled/render/go.mod
+  last_updated_by: Moses Narrow
+  last_updated_on: 2021-04-15 19:01:42.000000000 Z
+- name: go-difflib
+  description: Partial port of Python difflib package to Go
+  package_url: https://pkg.go.dev/github.com/pmezard/go-difflib
+  version: 1.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skycoin-modal/blob/master/go.sum
+  detection_source: vendor/github.com/sirupsen/logrus/go.mod
+  last_updated_by: Moses Narrow
+  last_updated_on: 2021-04-15 19:01:42.000000000 Z
+- name: go-spew
+  description: Implements a deep pretty printer for Go data structures to aid in debugging
+  package_url: https://pkg.go.dev/github.com/davecgh/go-spew
+  version: 1.1.1
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skycoin-modal/blob/master/go.sum
+  detection_source: vendor/github.com/sirupsen/logrus/go.mod
+  last_updated_by: Moses Narrow
+  last_updated_on: 2021-04-15 19:01:42.000000000 Z
+- name: logrus
+  description: Structured, pluggable logging for Go
+  package_url: https://pkg.go.dev/github.com/sirupsen/logrus
+  version: 1.8.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skycoin-modal/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Moses Narrow
+  last_updated_on: 2021-04-15 19:01:42.000000000 Z
+- name: mux
+  description: "A powerful HTTP router and URL matcher for building Go web servers
+    with \U0001F98D"
+  package_url: https://pkg.go.dev/github.com/gorilla/mux
+  version: 1.8.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skycoin-modal/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Moses Narrow
+  last_updated_on: 2021-04-15 19:01:42.000000000 Z
+- name: render
+  description: Go package for easily rendering JSON
+  package_url: https://pkg.go.dev/github.com/unrolled/render
+  version: 1.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skycoin-modal/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Moses Narrow
+  last_updated_on: 2021-04-15 19:01:42.000000000 Z
+- name: secure
+  description: HTTP middleware for Go that facilitates some quick security wins
+  package_url: https://pkg.go.dev/github.com/unrolled/secure
+  version: 1.0.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skycoin-modal/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Moses Narrow
+  last_updated_on: 2021-04-15 19:01:42.000000000 Z
+- name: statik
+  description: Embed files into a Go executable
+  package_url: https://pkg.go.dev/github.com/rakyll/statik
+  version: 0.1.7
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skycoin-modal/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Moses Narrow
+  last_updated_on: 2021-04-15 19:06:19.000000000 Z
+- name: sys
+  description: Go packages for low-level interaction with the operating system
+  package_url: https://pkg.go.dev/golang.org/x/sys
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skycoin-modal/blob/master/go.sum
+  detection_source: vendor/github.com/sirupsen/logrus/go.mod
+  last_updated_by: Moses Narrow
+  last_updated_on: 2021-04-15 19:01:42.000000000 Z
+- name: urfave/negroni
+  description: Idiomatic HTTP Middleware for Golang
+  package_url: https://pkg.go.dev/github.com/urfave/negroni
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/skycoin-modal/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Moses Narrow
+  last_updated_on: 2021-04-15 19:01:42.000000000 Z
